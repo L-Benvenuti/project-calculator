@@ -1,5 +1,6 @@
 body,
-button {
+button,
+p {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,12 +18,13 @@ button {
     padding: 25px 10px;
 }
 
-.display {
-    align-self: center;
+p.display {
+    justify-content: end;
     width: 140px;
     height: 40px;
     border: 2px solid black;
     margin-top: 0;
+    padding: 0 8px;
 }
 
 .btn-container {
