@@ -4,40 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
 <body>
     <div class="calc-container">
         <div class="display">
-            <div class="previous-num"></div>
-            <div class="current-num"></div>
+            <div data-previous-num></div>
+            <div data-current-num></div>
         </div>
         <div class="btn-container">
             <!-- First Line -->
-            <button class="btn long">C</button>
-            <button class="btn">⌫</button>
-            <button class="btn op">÷</button>
+            <button data-all-clear class="long">C</button>
+            <button data-delete>⌫</button>
+            <button data-operation>÷</button>
             <!-- Second Line -->
-            <button class="btn num">7</button>
-            <button class="btn num">8</button>
-            <button class="btn num">9</button>
-            <button class="btn op">x</button>
+            <button data-number>7</button>
+            <button data-number>8</button>
+            <button data-number>9</button>
+            <button data-operation>x</button>
             <!-- Third Line -->
-            <button class="btn num">4</button>
-            <button class="btn num">5</button>
-            <button class="btn num">6</button>
-            <button class="btn op">-</button>
+            <button data-number>4</button>
+            <button data-number>5</button>
+            <button data-number>6</button>
+            <button data-operation>-</button>
             <!-- Fourth Line -->
-            <button class="btn num">1</button>
-            <button class="btn num">2</button>
-            <button class="btn num">3</button>
-            <button class="btn op">+</button>
+            <button data-number>1</button>
+            <button data-number>2</button>
+            <button data-number>3</button>
+            <button data-operation>+</button>
             <!-- Fifth Line -->
-            <button class="btn num">0</button>
-            <button class="btn">.</button>
-            <button class="btn long">=</button>
+            <button data-number>0</button>
+            <button data-number>.</button>
+            <button data-equals class="long">=</button>
         </div>
     </div>
 </body>
